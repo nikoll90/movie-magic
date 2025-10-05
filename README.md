@@ -24,7 +24,7 @@ NodeJS Workshop
 - [x] Add movie controller
 - [x] Render create movie page
 - [x] Add routes
-- [ ] Read request body data
+- [x] Read request body data
 - [ ] Create new movie
   - [ ] Add action
   - [ ] Add service
