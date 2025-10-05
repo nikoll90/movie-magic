@@ -8,6 +8,6 @@ NodeJS Workshop
 - [x] Add resources
 - [x] Setup handerbars `npm i express-handlebars`
 - [x] Setup static files
-- [ ] Render home page
+- [x] Render home page
 - [ ] Config debugging
 
