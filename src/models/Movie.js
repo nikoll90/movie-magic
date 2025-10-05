@@ -56,14 +56,18 @@ export default class Movie {
         return [...movies];
     }
 
+    static findById(id) {
+        let result = movies.find(movie => movie._id === id);
+
+        return result;
+    }
+
     get id() {
         return this._id;
     }
 
     save() {
         movies.push(this);
-
-        console.log(movies);
 
         return this;
     }
