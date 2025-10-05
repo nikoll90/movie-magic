@@ -10,4 +10,6 @@ NodeJS Workshop
 - [x] Setup handerbars `npm i express-handlebars`
 - [x] Setup static files
 - [x] Render home page
+- [x] Add layout
+- [ ] Render about page
 
