@@ -4,8 +4,8 @@ NodeJS Workshop
 ## Development steps
 
 - [x] Initialize project
-- [x] Add express server
+- [x] Add express server `npm i express`
 - [x] Add resources
-- [ ] Setup handerbars
+- [x] Setup handerbars `npm i express-handlebars`
 - [ ] Render home page
 
