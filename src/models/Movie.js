@@ -1,3 +1,5 @@
+import { v4 as uuid } from 'uuid';
+
 const movies = [
     {
         id: "a3682672-0ee4-1284-8759-35ee253329zv",
@@ -35,8 +37,28 @@ const movies = [
 ];
 
 export default class Movie {
+    constructor(data) {
+        //Object.assign(this, data);
+
+        this.id = uuid();
+        this.title = data.title;
+        this.category = data.category;
+        this.genre = data.genre;
+        this.director = data.director;
+        this.year = data.year;
+        this.imageUrl = data.imageUrl;
+        this.rating = data.rating;
+        this.description = data.description;
+    }
+
     static find() {
         // Returns new reference of movies
         return [...movies];
+    }
+
+    save() {
+        movies.push(this);
+
+        return this;
     }
 }

@@ -28,7 +28,7 @@ NodeJS Workshop
 - [ ] Create new movie
   - [x] Add action
   - [x] Add service
-  - [ ] Add model method for creating movie
+  - [x] Add model method for creating movie
 
 
 - [ ] Add 404 page
