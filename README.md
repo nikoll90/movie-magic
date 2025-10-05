@@ -5,7 +5,7 @@ NodeJS Workshop
 
 - [x] Initialize project
 - [x] Add express server
-- [ ] Add resources
+- [x] Add resources
 - [ ] Setup handerbars
 - [ ] Render home page
 
