@@ -19,6 +19,6 @@ NodeJS Workshop
 - [x] Add movie model
 - [x] Add home service
 - [x] Render movies on home page
-- [ ] Shown no movies screen
+- [x] Shown no movies screen
 ---
 - [ ] Add routes
