@@ -3,6 +3,7 @@ NodeJS Workshop
 
 ## Development steps
 
+## Setup
 - [x] Initialize project
 - [x] Add express server `npm i express`
 - [x] Config debugging
@@ -12,4 +13,12 @@ NodeJS Workshop
 - [x] Render home page
 - [x] Add layout
 - [x] Render about page
-
+---
+## Architecture
+- [x] Add home controller
+- [ ] Add movie data layer
+- [ ] Add home service
+- [ ] Render movies on home page
+- [ ] Shown no movies screen
+---
+- [ ] Add routes
