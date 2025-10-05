@@ -24,11 +24,12 @@ NodeJS Workshop
 - [x] Add movie controller
 - [x] Render create movie page
 - [x] Add routes
+- [x] Add 404 page
 - [x] Read request body data
 - [ ] Create new movie
   - [x] Add action
   - [x] Add service
   - [x] Add model method for creating movie
-
-
-- [ ] Add 404 page
+### Details page
+### Search page
+### Bonuses
