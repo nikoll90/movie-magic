@@ -26,8 +26,8 @@ NodeJS Workshop
 - [x] Add routes
 - [x] Read request body data
 - [ ] Create new movie
-  - [ ] Add action
-  - [ ] Add service
+  - [x] Add action
+  - [x] Add service
   - [ ] Add model method for creating movie
 
 

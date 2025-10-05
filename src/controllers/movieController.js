@@ -1,4 +1,5 @@
 import { Router } from "express";
+import movieService from "../services/movieService.js";
 
 const movieController = Router();
 
@@ -7,8 +8,9 @@ movieController.get('/create', (req, res) => {
 });
 
 movieController.post('/create', (req, res) => {
+    const movieData = req.body;
 
-    console.log(req.body);
+    movieService.create(movieData);
 
     res.redirect('/');
 });
