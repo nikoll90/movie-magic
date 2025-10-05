@@ -17,7 +17,7 @@ NodeJS Workshop
 ## Architecture
 - [x] Add home controller
 - [x] Add movie model
-- [ ] Add home service
+- [x] Add home service
 - [ ] Render movies on home page
 - [ ] Shown no movies screen
 ---
