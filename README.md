@@ -26,10 +26,15 @@ NodeJS Workshop
 - [x] Add routes
 - [x] Add 404 page
 - [x] Read request body data
-- [ ] Create new movie
+- [x] Create new movie
   - [x] Add action
   - [x] Add service
   - [x] Add model method for creating movie
 ### Details page
+- [x] Add details link for each movie
+- [ ] Add route with param for details page
+- [ ] GetOne movie from service
+- [ ] Find movie by id from model
+- [ ] Render details page with dynamic data
 ### Search page
 ### Bonuses
