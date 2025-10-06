@@ -46,3 +46,6 @@ NodeJS Workshop
   - [x] By title
 - [x] Remember search words
 ### Bonuses
+- [x] Dynamic page title
+- [ ] Rating
+- [ ] File persistance
