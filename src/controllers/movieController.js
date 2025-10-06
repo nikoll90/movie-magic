@@ -26,7 +26,7 @@ movieController.get('/search', (req, res) => {
     const filter = req.query;
     const movies = movieService.getAll(filter);
 
-    res.render('movies/search', { movies });
+    res.render('movies/search', { movies, filter });
 });
 
 export default movieController;
