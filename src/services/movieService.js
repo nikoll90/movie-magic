@@ -1,8 +1,8 @@
 import Movie from "../models/Movie.js";
 
 export default {
-    getAll() {
-        return Movie.find();
+    getAll(filter) {
+        return Movie.find(filter);
     },
     getById(movieId) {
         return Movie.findById(movieId);

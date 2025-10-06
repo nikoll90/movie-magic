@@ -41,5 +41,8 @@ NodeJS Workshop
 - [x] Render all movieson search page
 - [x] Modify search form
 - [ ] Filter movies
+  - [x] By year
+  - [ ] By genre
+  - [ ] By title
 - [ ] Remember search words
 ### Bonuses

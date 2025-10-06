@@ -51,9 +51,26 @@ export default class Movie {
         this.description = data.description;
     }
 
-    static find() {
+    static find(filter = {}) {
         // Returns new reference of movies
-        return [...movies];
+        let result = [...movies];
+
+        if (filter.title) {
+            // Search by title, partial match, case insensitive
+
+        }
+
+        if (filter.genre) {
+            // Search by genre, exact match, case insensitive
+
+        }
+
+        if (filter.year) {
+            // Search by year, exact match
+            result = result.filter(movie => movie.year === filter.year);
+        }
+
+        return result;
     }
 
     static findById(id) {
