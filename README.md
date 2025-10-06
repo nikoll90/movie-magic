@@ -40,9 +40,9 @@ NodeJS Workshop
 - [x] Show static search page
 - [x] Render all movieson search page
 - [x] Modify search form
-- [ ] Filter movies
+- [x] Filter movies
   - [x] By year
   - [x] By genre
-  - [ ] By title
+  - [x] By title
 - [ ] Remember search words
 ### Bonuses
