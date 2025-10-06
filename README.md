@@ -38,8 +38,8 @@ NodeJS Workshop
 - [x] Render details page with dynamic data
 ### Search page
 - [x] Show static search page
-- [ ] Render all movieson search page
-- [ ] Modify search form
+- [x] Render all movieson search page
+- [x] Modify search form
 - [ ] Filter movies
 - [ ] Remember search words
 ### Bonuses
